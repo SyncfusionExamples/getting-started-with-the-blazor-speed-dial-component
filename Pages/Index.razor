@@ -1,0 +1,81 @@
+﻿@page "/"
+
+<SfGrid ID="Grid" DataSource="@OrderData" @ref="GridReference">
+    <GridEditSettings AllowAdding="true"></GridEditSettings>
+    <GridColumns>
+        <GridColumn Field="OrderID" HeaderText="Order ID"></GridColumn>
+        <GridColumn Field="CustomerID" HeaderText="Customer"></GridColumn>
+        <GridColumn Field="Freight" HeaderText="Freight" Format="C2"></GridColumn>
+        <GridColumn Field="ShippingCountry" HeaderText="Country"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+
+<SfSpeedDial OpenIconCss="e-icons e-properties-1" Target="#Grid"
+Position="FabPosition.TopRight" Direction="LinearDirection.Left" CssClass="e-outline"
+Mode="SpeedDialMode.Radial" ItemClicked="PerformAddAction" IsModal=true>
+<ChildContent>
+        <SpeedDialRadialSettings Direction="RadialDirection.AntiClockwise" OffSet="50px"></SpeedDialRadialSettings>
+        <SpeedDialItems>
+            <SpeedDialItem Title="Add" IconCss="e-icons e-plus"></SpeedDialItem>
+            <SpeedDialItem Title="Edit" IconCss="e-icons e-edit"></SpeedDialItem>
+            <SpeedDialItem Title="Delete" IconCss="e-icons e-delete"></SpeedDialItem>
+        </SpeedDialItems>
+</ChildContent>
+<ItemTemplate>
+    <div class="itemlist">
+            <span style="padding:3px" class="@context.IconCss"></span>
+    </div>
+</ItemTemplate>
+
+</SfSpeedDial>
+
+
+@code {
+    SfGrid<DataModel> GridReference;
+
+    public void PerformAddAction(SpeedDialItemEventArgs args)
+    {
+        if (args.Item.IconCss == "e-icons e-plus")
+        {
+            this.GridReference.AddRecordAsync();
+        }
+        
+
+    }
+
+    public class DataModel
+    {
+        public int OrderID { get; set; }
+        public string CustomerID { get; set; }
+        public double Freight { get; set; }
+        public string ShippingCountry { get; set; }
+    }
+    List<DataModel> OrderData = new List<DataModel>
+    {
+        new DataModel { OrderID=10242, CustomerID="VINET", Freight=38.09, ShippingCountry="Germany" },
+        new DataModel { OrderID=10243, CustomerID="TOMSP", Freight=28.07, ShippingCountry="France"},
+        new DataModel { OrderID=10244, CustomerID="HANAR", Freight=34.25, ShippingCountry="Belgium"},
+        new DataModel { OrderID=10245, CustomerID="VICTE", Freight=55.12, ShippingCountry="Brazil"},
+        new DataModel { OrderID=10246, CustomerID="SUPRD", Freight=47.18, ShippingCountry="Germany"},
+        new DataModel { OrderID=10247, CustomerID="TOMSP", Freight=39.14, ShippingCountry="Belgium"},
+        new DataModel { OrderID=10248, CustomerID="VICTE", Freight=26.09, ShippingCountry="France"},
+        new DataModel { OrderID=10249, CustomerID="VINET", Freight=41.23, ShippingCountry="Brazil"},
+        new DataModel { OrderID=10250, CustomerID="HANAR", Freight=31.05, ShippingCountry="Belgium"},
+        new DataModel { OrderID=10251, CustomerID="TOMSP", Freight=51.23, ShippingCountry="Germany"},
+        new DataModel { OrderID=10252, CustomerID="SUPRD", Freight=11.32, ShippingCountry="France"},
+        new DataModel { OrderID=10253, CustomerID="HANAR", Freight=46.07, ShippingCountry="Brazil"}
+    };
+}
+<style>
+    .e-speeddial-li .itemlist {
+        display: inherit;
+        width: 100%;
+        border: 1px solid transparent;
+        align-items: center;
+        padding: 5px;
+        border-radius: 500px;
+        background-color: pink;
+        box-shadow: 0 0 4px pink;
+    }
+</style>
