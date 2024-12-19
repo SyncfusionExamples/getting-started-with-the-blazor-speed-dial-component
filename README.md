@@ -1,10 +1,6 @@
 # Getting Started with the Blazor Speed Dial Component
 
-The [Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddialutm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) is an extension of the Blazor Floating Action Button that displays a list of action buttons when clicked.A quick start Blazor project that shows how to add a Blazor Speed Dial component to the Blazor WebAssembly App. This project also includes a code snippet to set an add icon to the speed dial button, as well as how to customize it using predefined CSS classes and position options.
-
-Example: https://blazor.syncfusion.com/demos/speeddial/defaultfunctionalities?theme=fluent 
-
-Documentation:  https://blazor.syncfusion.com/documentation/speeddial/getting-started 
+The [Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddial?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) is an extension of the Blazor Floating Action Button that displays a list of action buttons when clicked. A quick start Blazor project that shows how to add a Blazor Speed Dial component to the Blazor WebAssembly App. This project also includes a code snippet to set an add icon to the Speed Dial button, as well as how to customize it using predefined CSS classes and position options.
 
 ## Project pre-requisites
 
@@ -16,25 +12,18 @@ To run this application, you need to first clone the getting-started-with-the-bl
 
 ## Features and Benefits
 
-## Built-in themes
-The Blazor Speed Dial supports these built-in themes: Tailwind CSS, Bootstrap 5, Bootstrap 4, Bootstrap, Material, Fabric, Fluent, and high contrast. Users can customize one of these built-in themes or create new themes to achieve their desired look and feel by simply overriding SASS variables or using our Theme Studio application.
-
-## Modal popup mode
-Modal popup mode enables an overlay to prevent background interaction when popup action items are opened.
-
 ## Display modes
 The Blazor Speed Dial component supports the display of action items in a linear or radial layout. This helps make actions more accessible and easy to use.
 
 ## Icon with text
 The Blazor Speed Dial component enables customization of the Speed Dial button and action items, including the use of text only, icon with text, or icon only. This allows developers to create highly personalized buttons and action items that effectively communicate the actions they perform.
 
-
 ## Time formatting
 Although it can be custom formatted, the Blazor speed-dial component comes with a default time format that is culture-specific.
+
 ## Globalization
 The Blazor Speed dial component supports [globalization](https://blazor.syncfusion.com/documentation/speed-dial/globalization?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) like internationalization and localization that updates the time format value in the pop-up list to match a specified culture.
-## UI customization
-Based on your cutting-edge web and mobile applications, you may totally alter the design of the Blazor Speed Dial component.
+
 ## Related links
 [Learn More about Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddial?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
 [Download Free Trial](https://www.syncfusion.com/downloads/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
@@ -44,8 +33,9 @@ Based on your cutting-edge web and mobile applications, you may totally alter th
 [Community Forums](https://www.syncfusion.com/forums/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
 [Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
 [Online example](https://github.com/SyncfusionExamples/getting-started-with-the-blazor-speed-dial-component?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
+
 ## About Syncfusion Blazor Components
-The Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to speed-dial, we provide popular Blazor Components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), and [Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples).
+The Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) library offers over 85 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Speed-Dial, we provide popular Blazor Components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples), and [Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples).
 
 ### About Syncfusion
 Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 29,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
