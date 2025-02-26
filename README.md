@@ -1,6 +1,6 @@
 # Getting Started with the Blazor Speed Dial Component
 
-The [Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddial?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) is an extension of the Blazor Floating Action Button that displays a list of action buttons when clicked. A quick start Blazor project that shows how to add a Blazor Speed Dial component to the Blazor WebAssembly App. This project also includes a code snippet to set an add icon to the Speed Dial button, as well as how to customize it using predefined CSS classes and position options.
+The [Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddial?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) is an extension of the [Blazor Floating Action Button](https://www.syncfusion.com/blazor-components/blazor-fab) that displays a list of action buttons when clicked. A quick start Blazor project that shows how to add a Blazor Speed Dial component to the Blazor WebAssembly App. This project also includes a code snippet to set an add icon to the Speed Dial button, as well as how to customize it using predefined CSS classes and position options.
 
 ## Project pre-requisites
 
@@ -22,7 +22,7 @@ The Blazor Speed Dial component enables customization of the Speed Dial button a
 Although it can be custom formatted, the Blazor speed-dial component comes with a default time format that is culture-specific.
 
 ## Globalization
-The Blazor Speed dial component supports [globalization](https://blazor.syncfusion.com/documentation/speed-dial/globalization?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) like internationalization and localization that updates the time format value in the pop-up list to match a specified culture.
+The Blazor Speed Dial component supports [globalization](https://blazor.syncfusion.com/documentation/speed-dial/globalization?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples) like internationalization and localization that updates the time format value in the pop-up list to match a specified culture.
 
 ## Related links
 [Learn More about Blazor Speed Dial](https://www.syncfusion.com/blazor-components/blazor-speeddial?utm_source=github&utm_medium=listing&utm_campaign=blazor-speed-dial-github-samples)
